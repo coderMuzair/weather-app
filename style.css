@@ -1,0 +1,60 @@
+.main-div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(214, 232, 248);
+}
+.city-name{
+    text-align: center;
+}
+.input{
+    display: flex;
+}
+#city-name{
+    width: 100%;
+}
+
+.card-body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 150px;
+    /* width: 100%; */
+}
+.img-div{
+    /* width: 50%; */
+    width: 55%;
+
+}
+.temp{
+    font-size: 2.5em;
+    margin: 0;
+}
+.feels-like{
+    margin: 0;
+}
+/* .temp-div{
+    text-align: right;
+} */
+button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #59b2fb;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    /* display: inline-block; */
+  }
+  button:hover {
+    background: #0b7dda;
+  }
+
+  #time{
+    text-align: center;
+    font-size: 13px;
+  }
