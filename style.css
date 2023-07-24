@@ -4,7 +4,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(214, 232, 248);
+    /* background-color: rgb(214, 232, 248); */
+}
+.card, li, input{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(147,255,224,1) 0%, rgba(1,217,255,1) 93%, rgba(0,212,255,1) 100%);
+    
 }
 .city-name{
     text-align: center;
